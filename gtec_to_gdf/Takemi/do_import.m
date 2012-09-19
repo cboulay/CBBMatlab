@@ -1,14 +1,3 @@
-import EERAT.* %Database object interfaces.
-if ~exist('dbx','var')
-    dbx=EERAT.Dbmym('eerat'); %Open a connection to the database.
-end
-
-import Takemi.* %Some classes to help load the data.
-
-experiment = EERAT.Experiment(dbx,'Name','Takemi_MI_TMS','Description','Takemi applying TMS during motor imagery');%Get or create an experiment to group the subjects.
-sub_type = EERAT.SubjectType(dbx,'Name','ghi_healthy');%Get (or create) the subject type
-dat_type = EERAT.DatumType(dbx,'Name','Takemi_MI_mep');%Get (or create) the datum type.
-
 get_subject_info;%subject_info stored in a separate file.
 
 for ss=1:length(subjects_info)%For each subject

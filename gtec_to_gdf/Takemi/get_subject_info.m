@@ -1,4 +1,3 @@
-import Takemi.*
 %Each subject underwent 4 conditions: disc, RC, ERD5, and ERD15
 %disc was used simply to identify features to use for feedback.
 %Within each condition there were 3 ISI's: 0, 3 (SICI) and 10 (ICF)
@@ -16,6 +15,7 @@ subjects_info(ss).sici_isi = 3;
 subjects_info(ss).icf_isi = 10;
 subjects_info(ss).fb_ch_ref = 'CP3';
 subjects_info(ss).fb_freq = 21;
+subjects_info(ss).row_numbers = {[78 198 118 238 158 278];[66 106 146]};
 subjects_info(ss).chad_task_freq = 31.5;
 subjects_info(ss).chad_mep_freq = 19.5;
 
@@ -27,6 +27,7 @@ subjects_info(ss).sici_isi = 2;
 subjects_info(ss).icf_isi = 10;
 subjects_info(ss).fb_ch_ref = 'FC3';
 subjects_info(ss).fb_freq = 11;
+subjects_info(ss).row_numbers = {[78 198 118 238 158 278];[66 106 146]};
 subjects_info(ss).chad_task_freq = 10.5;
 subjects_info(ss).chad_mep_freq = 25.5;%+ve
 
@@ -38,6 +39,7 @@ subjects_info(ss).sici_isi = 3;
 subjects_info(ss).icf_isi = 10;
 subjects_info(ss).fb_ch_ref = 'CP3';
 subjects_info(ss).fb_freq = 8;
+subjects_info(ss).row_numbers = {[78 198 118 238 158 278];[66 106 146]};
 subjects_info(ss).chad_task_freq = 7.5;
 subjects_info(ss).chad_mep_freq = 28.5;
 
@@ -49,6 +51,7 @@ subjects_info(ss).sici_isi = 3;
 subjects_info(ss).icf_isi = 10;
 subjects_info(ss).fb_ch_ref = 'FC3';
 subjects_info(ss).fb_freq = 17;
+subjects_info(ss).row_numbers = {[78 198 118 238 158 278];[66 106 146]};
 subjects_info(ss).chad_task_freq = 7.5;%
 subjects_info(ss).chad_mep_freq = 16.5;%+ve
 
@@ -60,6 +63,7 @@ subjects_info(ss).sici_isi = 3;
 subjects_info(ss).icf_isi = 10;
 subjects_info(ss).fb_ch_ref = 'FC3';
 subjects_info(ss).fb_freq = 9;
+subjects_info(ss).row_numbers = {[78 198 118 238 158 278];[66 106 146]};
 subjects_info(ss).chad_task_freq = 16.5;
 subjects_info(ss).chad_mep_freq = 7.5;%+ve
 
@@ -71,6 +75,7 @@ subjects_info(ss).sici_isi = 3;
 subjects_info(ss).icf_isi = 10;
 subjects_info(ss).fb_ch_ref = 'CP3';
 subjects_info(ss).fb_freq = 11;
+subjects_info(ss).row_numbers = {[78 198 118 238 158 278];[66 106 146]};
 subjects_info(ss).chad_task_freq = 10.5;%
 subjects_info(ss).chad_mep_freq = 25.5;%
 
@@ -82,6 +87,7 @@ subjects_info(ss).sici_isi = 3;
 subjects_info(ss).icf_isi = 10;
 subjects_info(ss).fb_ch_ref = 'C1';
 subjects_info(ss).fb_freq = 13;
+subjects_info(ss).row_numbers = {[78 198 118 238 158 278];[66 106 146]};
 subjects_info(ss).chad_task_freq = 11.5;
 subjects_info(ss).chad_mep_freq = 13.5;
 
@@ -93,6 +99,7 @@ subjects_info(ss).sici_isi = 3;
 subjects_info(ss).icf_isi = 10;
 subjects_info(ss).fb_ch_ref = 'CP3';
 subjects_info(ss).fb_freq = 13;
+subjects_info(ss).row_numbers = {[78 198 118 238 158 278];[66 106 146]};
 subjects_info(ss).chad_task_freq = 13.5;
 subjects_info(ss).chad_mep_freq = 16.5;
 
@@ -104,6 +111,7 @@ subjects_info(ss).sici_isi = 3;
 subjects_info(ss).icf_isi = 10;
 subjects_info(ss).fb_ch_ref = 'C5';
 subjects_info(ss).fb_freq = 8;
+subjects_info(ss).row_numbers = {[78 198 118 238 158 278];[66 106 146]};
 subjects_info(ss).chad_task_freq = 7.5;
 subjects_info(ss).chad_mep_freq = 19.5;
 
@@ -115,6 +123,7 @@ subjects_info(ss).sici_isi = 3;
 subjects_info(ss).icf_isi = 10;
 subjects_info(ss).fb_ch_ref = 'C5';
 subjects_info(ss).fb_freq = 11;
+subjects_info(ss).row_numbers = {[78 198 118 238 158 278];[66 106 146]};
 subjects_info(ss).chad_task_freq = 10.5;
 subjects_info(ss).chad_mep_freq = 31.5;
 
@@ -126,6 +135,7 @@ subjects_info(ss).sici_isi = 3;
 subjects_info(ss).icf_isi = 10;
 subjects_info(ss).fb_ch_ref = 'CP3';
 subjects_info(ss).fb_freq = 18;
+subjects_info(ss).row_numbers = {[78 200 118 242 158 282];[66 106 146]};
 subjects_info(ss).chad_task_freq = 19.5;
 subjects_info(ss).chad_mep_freq = 28.5;
 
@@ -159,6 +169,7 @@ subjects_info(ss).sici_isi = 3;
 subjects_info(ss).icf_isi = 10;
 subjects_info(ss).fb_ch_ref = 'CP3';
 subjects_info(ss).fb_freq = 11;
+subjects_info(ss).row_numbers = {[78 198 118 238 158 278];[66 106 146]};
 subjects_info(ss).chad_task_freq = 7.5;
 subjects_info(ss).chad_mep_freq = 19.5;%+ve
 %Power changes and correlations with MEP size look great but reversed at
@@ -171,6 +182,7 @@ subjects_info(ss).chad_mep_freq = 19.5;%+ve
 % subjects_info(ss).muscle = 'FCR';
 % subjects_info(ss).sici_isi = 2;
 % subjects_info(ss).icf_isi = 15;
+% subjects_info(ss).row_numbers = {[78 196 118 236 158 276];[66 106 146]};
 % subjects_info(ss).fb_ch_ref = 'CP3';
 % subjects_info(ss).center_freq = 9;
 
@@ -182,6 +194,7 @@ subjects_info(ss).sici_isi = 3;
 subjects_info(ss).icf_isi = 10;
 subjects_info(ss).fb_ch_ref = 'CP3';
 subjects_info(ss).fb_freq = 9;
+subjects_info(ss).row_numbers = {[78 198 118 238 158 278];[66 106 146]};
 subjects_info(ss).chad_task_freq = 7.5;
 subjects_info(ss).chad_mep_freq = 10.5;
 
@@ -193,6 +206,7 @@ subjects_info(ss).sici_isi = 3;
 subjects_info(ss).icf_isi = 10;
 subjects_info(ss).fb_ch_ref = 'CP3';
 subjects_info(ss).fb_freq = 10;
+subjects_info(ss).row_numbers = {[78 198 118 238 158 278];[66 106 146]};
 subjects_info(ss).chad_task_freq = 10.5;
 subjects_info(ss).chad_mep_freq = 7.5;
 
@@ -204,6 +218,7 @@ subjects_info(ss).sici_isi = 2;
 subjects_info(ss).icf_isi = 15;
 subjects_info(ss).fb_ch_ref = 'CP3';
 subjects_info(ss).fb_freq = 11;
+subjects_info(ss).row_numbers = {[78 198 118 238 158 278];[66 106 146]};
 subjects_info(ss).chad_task_freq = 10.5;
 subjects_info(ss).chad_mep_freq = 25.5;%+ve
 
@@ -213,6 +228,7 @@ subjects_info(ss).chad_mep_freq = 25.5;%+ve
 % subjects_info(ss).muscle = 'FCR';
 % subjects_info(ss).sici_isi = 3;
 % subjects_info(ss).icf_isi = 10;
+% subjects_info(ss).row_numbers = {[78 198 118 238 158 278];[66 98 130]};
 % subjects_info(ss).fb_ch_ref = 'C5';
 % subjects_info(ss).center_freq = 14;
 
@@ -224,6 +240,7 @@ subjects_info(ss).sici_isi = 3;
 subjects_info(ss).icf_isi = 10;
 subjects_info(ss).fb_ch_ref = 'CP3';
 subjects_info(ss).fb_freq = 17;
+subjects_info(ss).row_numbers = {[78 198 118 238 158 278];[66 106 146]};
 subjects_info(ss).chad_task_freq = 34.5;
 subjects_info(ss).chad_mep_freq = 13.5;
 
