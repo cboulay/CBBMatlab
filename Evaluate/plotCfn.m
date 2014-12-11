@@ -6,12 +6,12 @@ if isempty(clssDirVec)
 end
 
 nArr = length(clssDirVec);
-imagesc(bsxfun(@rdivide, cfnMat, sum(cfnMat,2)))
+imagesc(100*bsxfun(@rdivide, cfnMat, sum(cfnMat,2)))
 set(gca, 'XTickLabel', {})
 set(gca, 'YTickLabel', {})
 xlabel('PREDICTED DIRECTION', 'FontSize', 14)
 ylabel('TRUE DIRECTION', 'FontSize', 14)
-caxis([0 1]);
+caxis([0 100]);
 
 
 axPos = get(gca, 'Position');
